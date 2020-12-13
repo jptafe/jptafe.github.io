@@ -1,3 +1,36 @@
-body {
-    background: palegoldenrod; 
+*{
+    border: 1px black solid;
+    padding: 0;
+    margin: 0;
+}
+.calculator {
+    display: table;
+    padding: 2em;
+    background: lightgray;
+}
+.row {
+    display: table-row;
+    width: 24em;
+}
+input {
+    display: table-row;
+}
+.button {
+    display: table-cell;
+    background-color: white;
+    width: 5em;
+    margin: 1em -2em 1em 1em;
+}
+.button span {
+    margin: .5em auto;
+    text-align: center;
+    color: white;
+    text-decoration: bold;
+    display: block;
+    width: 4.5em;
+    background-color: gray;
+    line-height: 4.5em;
+}
+.button:active {
+    background-color: pink;
 }

@@ -1,13 +1,39 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Github.io page</title>
-    <link rel="stylesheet" href="css.css">
-    <script src="js.js"></script>
-</head>
-<body>
-    <h1>this is github</h1>
-</body>
+<html>
+    <head>
+        <link type="text/css" rel="stylesheet" href="css.css">
+        <script src="js.js"></script>
+    </head>
+    <body>
+        <div class="calculator">
+            <div class="row"> 
+                <input type="text" name="outscreen" size="10" id="outscreen" disabled> 
+                <input type="hidden" name="calctype" id="calctype"> 
+                <input type="hidden" name="secondval" id="secondval">
+            </div> 
+            <div class="row"> 
+                <div class="button" onClick="btnPress(7)"><span>7</span></div>
+                <div class="button" onClick="btnPress(8)"><span>8</span></div>
+                <div class="button" onClick="btnPress(9)"><span>9</span></div>
+                <div class="button" onClick="calcType('-')">-</div>
+            </div> 
+            <div class="row"> 
+                <div class="button" onClick="btnPress(4)"><span>4</span></div>
+                <div class="button" onClick="btnPress(5)"><span>5</span></div>
+                <div class="button" onClick="btnPress(6)"><span>6</span></div>
+                <div class="button" onClick="calcType('+')">+</div>
+            </div> 
+            <div class="row"> 
+                <div class="button" onClick="btnPress(1)"><span>1</span></div>
+                <div class="button" onClick="btnPress(2)"><span>2</span></div>
+                <div class="button" onClick="btnPress(3)"><span>3</span></div>
+                <div class="button" onClick="calcType('*')">*</div>
+            </div> 
+            <div class="row"> 
+                <div class="button" onClick="btnPress(0)"><span>0</span></div>
+                <div class="button">.</div>
+                <div class="button" onClick="doCalc()"><span>=</span></div>
+                <div class="button" onClick="calcType('/')">/</div>
+            </div> 
+        </div>
+    </body>
 </html>
