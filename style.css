@@ -1,0 +1,27 @@
+* {
+    border: salmon solid 1px;
+    box-sizing: border-box;
+}
+.calc {
+    display: table;
+    background-color: gray;
+    padding: .1em;
+    width: 13em;
+}
+.row {
+    display: table-row;
+}
+#screen {
+    width: 13em;
+    text-align: right;
+}
+.button {
+    display: table-cell;
+    width: 3em;
+    height: 3em;
+    margin: .1em;
+    padding:1em;
+}
+.button:active {
+    background: rebeccapurple;
+}
