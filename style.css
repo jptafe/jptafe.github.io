@@ -1,3 +1,6 @@
+body {
+    background: black;
+}
 .calc {
     display: table;
     background-color: gray;
@@ -8,6 +11,7 @@
     display: table-row;
 }
 #screen {
+    background: white;
     width: 13em;
     text-align: right;
 }
