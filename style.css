@@ -1,7 +1,4 @@
-* {
-    border: salmon solid 1px;
-    box-sizing: border-box;
-}
+
 .calc {
     display: table;
     background-color: gray;
@@ -17,6 +14,7 @@
 }
 .button {
     display: table-cell;
+    border: solid 1px rgb(248, 144, 162);
     width: 3em;
     height: 3em;
     margin: .1em;
