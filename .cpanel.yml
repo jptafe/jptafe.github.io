@@ -1,4 +1,6 @@
 deployment:
   tasks:
     - export DEPLOYPATH=~/public_html/calc
-    - /bin/cp * $DEPLOYPATH
+    - /bin/cp *.html $DEPLOYPATH
+    - /bin/cp *.css $DEPLOYPATH
+    - /bin/cp *.js $DEPLOYPATH
