@@ -1,0 +1,4 @@
+deployment:
+  tasks:
+    - export DEPLOYPATH=~/public_html/calc
+    - /bin/cp * $DEPLOYPATH
